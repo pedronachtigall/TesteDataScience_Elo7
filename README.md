@@ -4,13 +4,13 @@ Esse projeto têm como objetivo desenvolver um pipeline de análise que permita 
 
 ## Descrição do Problema
 
-Durante o dia a dia de trabalho no Elo7 nos deparamos com uma quantidade de produtos únicos da ordem de seis milhões. As informações encontradas na página de um produto são inteiramente inseridas pelo seu vendedor. Sendo assim, temos dados textuais pouco estruturados e dados numéricos que podem ser incoerentes com a prática do mercado. Isso faz com que cada produto seja único, tornando mais difícil a busca por padrões. 
+Durante o dia a dia de trabalho no Elo7 nos deparamos com uma quantidade de produtos únicos da ordem de seis milhões. As informações encontradas na página de um produto são inteiramente inseridas pelo seu vendedor. Sendo assim, existem dados textuais pouco estruturados e dados numéricos que podem ser incoerentes com a prática do mercado. Isso faz com que cada produto seja único, tornando mais difícil a busca por padrões. 
 
-Considerando a interação dos compradores com o site, estes todos os dias utilizam nosso sistema de busca com dois objetivos principais: encontrar um produto desejado; ou descobrir novos itens que os surpreendam.
+Considerando a interação dos compradores com o site, estes todos os dias utilizam o sistema de busca com dois objetivos principais: encontrar um produto desejado; ou descobrir novos itens que os surpreendam.
 
 O termo de busca (ou query) é a informação que o usuário nos dá sobre a sua intenção e podemos obter informações extras após o usuário visualizar ou comprar algum produto. Será possível identificar algum tipo de intenção do usuário apenas pelo termo de busca?
 
-Dito isso, queremos que você utilize nossos dados para atingir três objetivos:
+O projeto aqui apresentado presente utilizar o dataset disponível para atingir três objetivos:
 
 - Criar um sistema supervisionado que classifique os produtos em categorias usando dados rotulados (campo `category`);
 - Criar um sistema não supervisionado que utilize os termos de busca para produzir pelo menos duas classes de intenção do usuário;
@@ -19,15 +19,14 @@ Dito isso, queremos que você utilize nossos dados para atingir três objetivos:
     - Retorne a que categoria este termo pertenceria caso fosse um produto;
     - Recomende os dez produtos mais relevantes dados o termo de busca e a intenção do usuário.
 
-Mais adiante você encontrará detalhes de como avaliaremos o seu desempenho.
 
 ## Dataset
 
-O dataset escolhido para esse teste é composto de uma amostra de dados do Elo7. O dataset pode ser encontrado no presente repositório, no arquivo ["elo7_recruitment_dataset.csv"](https://github.com/pedronachtigall/TesteDataScience_Elo7/blob/main/elo7_recruitment_dataset.csv).
+O dataset para esse projeto é composto de uma amostra de dados do Elo7. O dataset pode ser encontrado no presente repositório, no arquivo ["elo7_recruitment_dataset.csv"](https://github.com/pedronachtigall/TesteDataScience_Elo7/blob/main/elo7_recruitment_dataset.csv).
 
 Em resumo, o dataset contém 38.507 registros distribuídos em 6 categorias (`Bebê`, `Bijuterias e Jóias`, `Decoração`, `Lembrancinhas`, `Papel e Cia` e `Outros`). Cada registro corresponde a um clique em um produto a partir de um termo de busca no site. 
 
-Nesse dataset você encontrará as seguintes colunas:
+Este dataset é composto pelas seguintes colunas:
 
 - `product_id` - identificação de produto
 - `seller_id` - identificação do vendedor 
