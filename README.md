@@ -56,6 +56,8 @@ A solução está estruturada da seguinte maneira:
 5. **Colaboração entre os sistemas**
 6. **Entrega dos sistemas**
 
+A solução pode ser encontrada no arquivo que está em formato jupyter notebbok ["Teste_DataScience_Elo7.ipynb"](https://github.com/pedronachtigall/TesteDataScience_Elo7/blob/main/Teste_DataScience_Elo7.ipynb). Além disso, segue em conjunto o arquivo ["requirements.txt"](https://github.com/pedronachtigall/TesteDataScience_Elo7/blob/main/requirements.txt) (gerado pelo comando `pip freeze > requirements.txt`).
+
 ## Parte 1 - Análise exploratória
 
 Nesta etapa foi realizada uma análise explotória dos dados para realização de "limpeza" (i.e., remover/alterar dados com valores nulos, transformação em log, etc) e comprrensão dos dados. No intuito de compreender os dados e suas relações, foram análisados valores estatísticos básicos, "plotagem" de gráficos que ajudaram a compreender a distrubuição dos valores dos dados, além de uma anlise de correlação entre os valores do dataset.
