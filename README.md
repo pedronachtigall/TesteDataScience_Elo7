@@ -59,8 +59,10 @@ A solução pode ser encontrada no arquivo que está em formato jupyter notebbok
 
 ## Parte 1 - Análise exploratória
 
-Nesta etapa foi realizada uma análise explotória dos dados para realização de "limpeza" (i.e., remover/alterar dados com valores nulos, transformação em log, etc) e compreensão dos dados. No intuito de compreender os dados e suas relações, foram análisados valores estatísticos básicos, "plotagem" de gráficos que ajudaram a compreender a distrubuição dos valores de dados específicos e suas possveis relações com outros dados. Além disso, foi aplicada uma análise de correlação entre os dados disponíveis no dataset para detectar padrões relacionais.
+Nesta etapa foi realizada uma análise exploratória dos dados para realização de "limpeza" (i.e., remover/alterar dados com valores nulos, transformação em log, etc) e compreensão dos dados contigdos no dataset. Essa análise foi realizada no intuito de compreender os dados e suas relações. Dessa forma, foram analisados valores estatísticos básicos, "plotagem" de gráficos que ajudaram a compreender a distrubuição dos valores de dados específicos e suas possveis relações com outros dados. Além disso, foi aplicada uma análise de correlação entre os dados disponíveis no dataset para detectar padrões relacionais.
 
 Está análise permite identificar variáveis que podem auxiliar no desenvolvimento de um sistema de classificação de produtos com alta performance.
 
 ## Parte 2 - Sistema de classificação de produtos
+
+Nesta etapa foi realizado o teste de alguma métodos computcaionais disponíveis para realização do processo de classficação de produtos. Essa anlise permite identificar o algoritmo com a melhor performance para ser aplicada nas tarefas *a posteriori*.
